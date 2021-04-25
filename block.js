@@ -4,7 +4,7 @@ class block{
            
             restitution :0.4,
             friction :1.0,
-             isStatic:true
+            //isStatic:true
            
         }
         this.body = Bodies.rectangle(x, y, width, height, options);
@@ -17,6 +17,7 @@ class block{
         var pos= this.body.position;
         push();
         translate(pos.x, pos.y);
+        fill(103, 209, 234);
         rotate(angle);
         rectMode(CENTER);
         rect(0,0,this.width, this.height);

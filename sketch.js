@@ -109,5 +109,10 @@ block23.display();
 block24.display();
 block25.display();
 
+fill(215, 211, 184);
+textSize(20)
+text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks" ,600,100);
+
+
 }
 
